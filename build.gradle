@@ -1,0 +1,21 @@
+
+### `build.gradle`
+
+```groovy
+plugins {
+    id 'java'
+    id 'application'
+}
+
+application {
+    mainClassName = 'Main'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.opencsv:opencsv:5.5.2'
+    implementation 'org.knowm.xchart:xchart:3.8.0'
+}
