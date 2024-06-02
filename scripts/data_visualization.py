@@ -68,7 +68,7 @@ def visualize_data(input_file):
     plt.savefig('output/correlation_matrix.png')
     plt.close()
     
+    print("There are kiraak changes here")
     print("Visualizations saved to output/")
 
-def heatmap():
-    print("Awesome function heatmap")
+    pritn("Some awesome change here")
