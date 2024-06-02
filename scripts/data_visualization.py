@@ -69,3 +69,6 @@ def visualize_data(input_file):
     plt.close()
     
     print("Visualizations saved to output/")
+
+def heatmap():
+    print("Awesome function heatmap")
