@@ -71,4 +71,4 @@ def visualize_data(input_file):
     print("There are kiraak changes here")
     print("Visualizations saved to output/")
 
-    pritn("Some awesome change here")
+    print("Some awesome change here")
