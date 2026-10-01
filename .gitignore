@@ -1,0 +1,58 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+venv/
+.venv/
+env/
+*_env/
+
+# Java / Gradle build output
+.gradle/
+build/
+out/
+*.class
+
+# Generated visualizations
+output/
+
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+id_*
+*secret*
+*credential*
+*token*.json
+
+# Large binary data and media
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.mp3
+*.wav
+*.m4a
+*.mp4
+*.mov
+*.avi
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.h5
+*.onnx
+*.pkl
+*.parquet
+
+# Personal documents
+*.pdf
+*.docx
+*.xlsx
